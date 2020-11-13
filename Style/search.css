@@ -1,0 +1,31 @@
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.results-container ul a {
+    color: black;
+    text-decoration: none;
+
+}
+.results-container ul a:hover {
+    color: rgb(27,85, 255);
+}
+
+input {
+    background: white;
+    border: 1px solid rgb(200,200, 200);
+    font-size: 14px;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 2px;
+}
+input:focus {
+    border: 1px solid rgb(27,85, 255);
+}
+input.btn {
+    background: rgb(27,85, 255);
+    border: 1px solid rgb(27,85, 255);
+    font-weight: bold;
+    color: white;
+}
