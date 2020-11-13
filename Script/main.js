@@ -25,7 +25,7 @@ function randomizeBeer(){
                 cardImage.src = beer.image_url
             }
             cardTitle.innerHTML = beer.name
-            cardLink.href = `/Slutprojekt%20öl/Pages/details.html?id=${beer.id}`
+            cardLink.href = `details.html?id=${beer.id}`
             cardContainer.classList.add("visible")
         }
         
